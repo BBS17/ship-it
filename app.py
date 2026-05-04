@@ -1,6 +1,8 @@
 from flask import Flask, jsonify
 import random, os
 
+raise Exception("Simulated bad deploy")
+
 app = Flask(__name__)
 SECRET = random.randint(1, 100)
 
